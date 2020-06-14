@@ -1,6 +1,6 @@
 //
-//  FoodTrackerUITests.swift
-//  FoodTrackerUITests
+//  LandmarksUITests.swift
+//  LandmarksUITests
 //
 //  Created by Blair Petrachek on 2020-06-11.
 //  Copyright © 2020 Blair Petrachek. All rights reserved.
