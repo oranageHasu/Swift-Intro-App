@@ -1,13 +1,13 @@
 //
-//  FoodTrackerTests.swift
-//  FoodTrackerTests
+//  LandmarksTests.swift
+//  LandmarksTests
 //
 //  Created by Blair Petrachek on 2020-06-11.
 //  Copyright © 2020 Blair Petrachek. All rights reserved.
 //
 
 import XCTest
-@testable import FoodTracker
+@testable import Landmarks
 
 class LandmarksTests: XCTestCase {
 
