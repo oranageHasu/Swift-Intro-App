@@ -1,10 +1,9 @@
-//
-//  BadgeBackground.swift
-//  Landmarks
-//
-//  Created by Blair Petrachek on 2020-06-16.
-//  Copyright © 2020 Blair Petrachek. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view that displays the background of a badge.
+*/
 
 import SwiftUI
 
@@ -44,7 +43,7 @@ struct BadgeBackground: View {
                     )
                 }
             }
-            .fill(LinearGradient (
+            .fill(LinearGradient(
                 gradient: .init(colors: [Self.gradientStart, Self.gradientEnd]),
                 startPoint: .init(x: 0.5, y: 0),
                 endPoint: .init(x: 0.5, y: 0.6)
@@ -53,7 +52,7 @@ struct BadgeBackground: View {
         }
     }
     static let gradientStart = Color(red: 239.0 / 255, green: 120.0 / 255, blue: 221.0 / 255)
-    static let gradientEnd = Color(red: 239.0 / 255, green: 172 / 255, blue: 120 / 255)
+    static let gradientEnd = Color(red: 239.0 / 255, green: 172.0 / 255, blue: 120.0 / 255)
 }
 
 struct BadgeBackground_Previews: PreviewProvider {
