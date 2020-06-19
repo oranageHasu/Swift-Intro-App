@@ -27,13 +27,15 @@
 		3C2BFA052496C83500E0CF93 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C2BF9F82496C83500E0CF93 /* rainbowlake.jpg */; };
 		3C2BFA062496C83500E0CF93 /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C2BF9F92496C83500E0CF93 /* hiddenlake.jpg */; };
 		3C2BFA072496C83500E0CF93 /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C2BF9FA2496C83500E0CF93 /* chincoteague.jpg */; };
-		3C2BFA082496C83500E0CF93 /* yukon_charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C2BF9FB2496C83500E0CF93 /* yukon_charleyrivers.jpg */; };
 		3C2BFA0B2496C8B800E0CF93 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2BFA092496C8B800E0CF93 /* Data.swift */; };
 		3C2BFA0C2496C8B800E0CF93 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2BFA0A2496C8B800E0CF93 /* Landmark.swift */; };
 		3C4A7F4A24982302009918AF /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A7F4924982302009918AF /* charleyrivers.jpg */; };
 		3C4A7F4D24982749009918AF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A7F4C24982749009918AF /* UserData.swift */; };
 		3C4A7F4F24982FBD009918AF /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A7F4E24982FBD009918AF /* Badge.swift */; };
 		3C4A7F512498339C009918AF /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A7F502498339C009918AF /* HexagonParameters.swift */; };
+		3C60C283249C190D00FB7FBF /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C282249C190D00FB7FBF /* ProfileSummary.swift */; };
+		3C60C286249C26D200FB7FBF /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C285249C26D200FB7FBF /* HikeBadge.swift */; };
+		3C60C288249D185E00FB7FBF /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60C287249D185E00FB7FBF /* ProfileEditor.swift */; };
 		3C9725B424997D940042C124 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9725AF24997D940042C124 /* MapView.swift */; };
 		3C9725B524997D940042C124 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9725B024997D940042C124 /* CircleImage.swift */; };
 		3C9725B624997D940042C124 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9725B124997D940042C124 /* GraphCapsule.swift */; };
@@ -49,7 +51,9 @@
 		3CB9E44524997BC900F78395 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9E44324997BC900F78395 /* HikeGraph.swift */; };
 		3CBA959A24997F7600485EC0 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA959924997F7500485EC0 /* hikeData.json */; };
 		3CC18141249AC487002957CE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC18140249AC487002957CE /* Home.swift */; };
-		3CC18143249AC7E2002957CE /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC18142249AC7E2002957CE /* CategoryRow.swift */; };
+		3CC18145249ADC5F002957CE /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC18144249ADC5F002957CE /* CategoryRow.swift */; };
+		3CC18148249ADECD002957CE /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC18147249ADECD002957CE /* ProfileHost.swift */; };
+		3CC1814A249ADF92002957CE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC18149249ADF92002957CE /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,13 +100,15 @@
 		3C2BF9F82496C83500E0CF93 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		3C2BF9F92496C83500E0CF93 /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
 		3C2BF9FA2496C83500E0CF93 /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
-		3C2BF9FB2496C83500E0CF93 /* yukon_charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yukon_charleyrivers.jpg; sourceTree = "<group>"; };
 		3C2BFA092496C8B800E0CF93 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		3C2BFA0A2496C8B800E0CF93 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		3C4A7F4924982302009918AF /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		3C4A7F4C24982749009918AF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		3C4A7F4E24982FBD009918AF /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		3C4A7F502498339C009918AF /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		3C60C282249C190D00FB7FBF /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		3C60C285249C26D200FB7FBF /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		3C60C287249D185E00FB7FBF /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		3C9725AF24997D940042C124 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		3C9725B024997D940042C124 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		3C9725B124997D940042C124 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
@@ -118,7 +124,9 @@
 		3CB9E44324997BC900F78395 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		3CBA959924997F7500485EC0 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		3CC18140249AC487002957CE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		3CC18142249AC7E2002957CE /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		3CC18144249ADC5F002957CE /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		3CC18147249ADECD002957CE /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		3CC18149249ADF92002957CE /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +178,8 @@
 		3C2BF9B22492DEAE00E0CF93 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				3CC18146249ADE55002957CE /* Profile */,
+				3CC18144249ADC5F002957CE /* CategoryRow.swift */,
 				3C9725B924997DBD0042C124 /* LandmarkDetail.swift */,
 				3C9725BA24997DBD0042C124 /* LandmarkList.swift */,
 				3CB9E44024997BB000F78395 /* HikeDetail.swift */,
@@ -218,6 +228,7 @@
 		3C2BF9EB2496C6D300E0CF93 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3CC18149249ADF92002957CE /* Profile.swift */,
 				3CB9E43C24997B1B00F78395 /* Hike.swift */,
 				3C2BFA092496C8B800E0CF93 /* Data.swift */,
 				3C2BFA0A2496C8B800E0CF93 /* Landmark.swift */,
@@ -238,7 +249,6 @@
 				3C4A7F4E24982FBD009918AF /* Badge.swift */,
 				3CB9E436249963AB00F78395 /* BadgeBackground.swift */,
 				3CB9E438249964A600F78395 /* BadgeSymbol.swift */,
-				3CC18142249AC7E2002957CE /* CategoryRow.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -260,9 +270,19 @@
 				3C2BF9EF2496C83400E0CF93 /* turtlerock.jpg */,
 				3C2BF9F52496C83500E0CF93 /* twinlake.jpg */,
 				3C2BF9F12496C83400E0CF93 /* umbagog.jpg */,
-				3C2BF9FB2496C83500E0CF93 /* yukon_charleyrivers.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		3CC18146249ADE55002957CE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3CC18147249ADECD002957CE /* ProfileHost.swift */,
+				3C60C282249C190D00FB7FBF /* ProfileSummary.swift */,
+				3C60C285249C26D200FB7FBF /* HikeBadge.swift */,
+				3C60C287249D185E00FB7FBF /* ProfileEditor.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,7 +406,6 @@
 				3C2BFA062496C83500E0CF93 /* hiddenlake.jpg in Resources */,
 				3CBA959A24997F7600485EC0 /* hikeData.json in Resources */,
 				3C2BFA072496C83500E0CF93 /* chincoteague.jpg in Resources */,
-				3C2BFA082496C83500E0CF93 /* yukon_charleyrivers.jpg in Resources */,
 				3C2BFA022496C83500E0CF93 /* twinlake.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,9 +431,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CC18143249AC7E2002957CE /* CategoryRow.swift in Sources */,
+				3CC18145249ADC5F002957CE /* CategoryRow.swift in Sources */,
+				3CC1814A249ADF92002957CE /* Profile.swift in Sources */,
 				3C4A7F512498339C009918AF /* HexagonParameters.swift in Sources */,
 				3C9725BC24997DBD0042C124 /* LandmarkList.swift in Sources */,
+				3CC18148249ADECD002957CE /* ProfileHost.swift in Sources */,
 				3C9725B424997D940042C124 /* MapView.swift in Sources */,
 				3C2BFA0C2496C8B800E0CF93 /* Landmark.swift in Sources */,
 				3C2BF9B42492DEAE00E0CF93 /* AppDelegate.swift in Sources */,
@@ -426,14 +447,17 @@
 				3CB9E44124997BB000F78395 /* HikeDetail.swift in Sources */,
 				3CB9E44524997BC900F78395 /* HikeGraph.swift in Sources */,
 				3CB9E437249963AB00F78395 /* BadgeBackground.swift in Sources */,
+				3C60C286249C26D200FB7FBF /* HikeBadge.swift in Sources */,
 				3CC18141249AC487002957CE /* Home.swift in Sources */,
 				3C9725BB24997DBD0042C124 /* LandmarkDetail.swift in Sources */,
 				3C2BF9B62492DEAE00E0CF93 /* SceneDelegate.swift in Sources */,
 				3C9725B624997D940042C124 /* GraphCapsule.swift in Sources */,
 				3C9725B524997D940042C124 /* CircleImage.swift in Sources */,
 				3C4A7F4D24982749009918AF /* UserData.swift in Sources */,
+				3C60C283249C190D00FB7FBF /* ProfileSummary.swift in Sources */,
 				3C9725B724997D940042C124 /* RotatedBadgeSymbol.swift in Sources */,
 				3C9725B824997D940042C124 /* LandmarkRow.swift in Sources */,
+				3C60C288249D185E00FB7FBF /* ProfileEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

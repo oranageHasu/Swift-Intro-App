@@ -1,10 +1,9 @@
-//
-//  CategoryRow.swift
-//  Landmarks
-//
-//  Created by Blair Petrachek on 2020-06-17.
-//  Copyright © 2020 Blair Petrachek. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view showing a scrollable list of landmarks.
+*/
 
 import SwiftUI
 
@@ -22,7 +21,11 @@ struct CategoryRow: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(self.items) { landmark in
-                        NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
+                        NavigationLink(
+                            destination: LandmarkDetail(
+                                landmark: landmark
+                            )
+                        ) {
                             CategoryItem(landmark: landmark)
                         }
                     }
@@ -35,7 +38,6 @@ struct CategoryRow: View {
 
 struct CategoryItem: View {
     var landmark: Landmark
-    
     var body: some View {
         VStack(alignment: .leading) {
             landmark.image
@@ -43,7 +45,6 @@ struct CategoryItem: View {
                 .resizable()
                 .frame(width: 155, height: 155)
                 .cornerRadius(5)
-            
             Text(landmark.name)
                 .foregroundColor(.primary)
                 .font(.caption)
@@ -58,5 +59,6 @@ struct CategoryRow_Previews: PreviewProvider {
             categoryName: landmarkData[0].category.rawValue,
             items: Array(landmarkData.prefix(4))
         )
+        .environmentObject(UserData())
     }
 }
